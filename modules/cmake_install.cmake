@@ -1,0 +1,75 @@
+# Install script for directory: C:/Users/Vinh Loi/Project/OpenCV/opencv/modules
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/install")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/calib3d/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/core/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudaarithm/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudabgsegm/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudacodec/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudafeatures2d/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudafilters/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudaimgproc/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudalegacy/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudaobjdetect/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudaoptflow/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudastereo/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudawarping/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/cudev/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/dnn/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/features2d/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/flann/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/highgui/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/imgcodecs/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/imgproc/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/java/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/js/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/ml/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/objdetect/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/photo/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/python/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/shape/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/stitching/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/superres/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/ts/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/video/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/videoio/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/videostab/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/viz/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/.firstpass/world/cmake_install.cmake")
+  include("C:/Users/Vinh Loi/Project/OpenCV/BuildOpenCV_GCCRX/modules/core/cmake_install.cmake")
+
+endif()
+
